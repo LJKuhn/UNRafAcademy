@@ -4,6 +4,7 @@ on:
   push:
     branches: [ main ]
 
+# Configuración para GitHub Pages con Actions (no gh-pages branch)
 # Agregar permisos necesarios para GitHub Pages
 permissions:
   contents: read
