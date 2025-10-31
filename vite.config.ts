@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/UNRafAcademy/", // Nombre de tu repositorio
   server: {
     host: "localhost",
     port: 5173,
