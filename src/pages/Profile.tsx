@@ -132,7 +132,7 @@ const Profile = () => {
                 </Avatar>
                 <div className="flex-1">
                   <h1 className="text-2xl font-bold mb-2">Lautaro Jesús Kühn</h1>
-                  <p className="text-muted-foreground mb-3">Investigador - Departamento de Ciencias Agrarias</p>
+                  <p className="text-muted-foreground mb-3">Administrador - Carrera de Ingeniería en Computación</p>
                   <div className="flex gap-2 flex-wrap">
                     <Badge>Investigador</Badge>
                     <Badge variant="secondary">Machine Learning</Badge>
@@ -157,7 +157,7 @@ const Profile = () => {
                       </div>
                       <div className="space-y-2">
                         <Label htmlFor="edit-title">Título / Cargo</Label>
-                        <Input id="edit-title" defaultValue="Investigador - Departamento de Ciencias Agrarias" />
+                        <Input id="edit-title" defaultValue="Administrador - Carrera de Ingeniería en Computación" />
                       </div>
                       <div className="space-y-2">
                         <Label htmlFor="edit-bio">Biografía</Label>
